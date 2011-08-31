@@ -1,0 +1,36 @@
+This is a bill of materials for PUMA Spin1 boards.
+
+Supplier is Element14.com ---> aimed at NZ and Aus. Although can be used where ever Element14 will ship.
+
+Were possible components have been selected so that there is minimal lead times in delivery. 
+There are minimum order quantities on some components that exceed amounts required; however it is cheaper to buy components this way.
+
+
+Parts of the Puma board covered are:
+	- Primary components (MCU, PLL + CLK, USB, MCU power, Secondary power supply)
+	- BRV
+	- MAP
+	- AAP
+	- RPM
+	- FUEL
+	- CHT
+	- MAT
+	- IAT
+	- TPS
+	- Injection
+	- Ignition
+
+Changes and build doc's to be completed.
+
+How to use:
+	- Simple just login to element14
+	- cut and paste the 7 digit code for the sub circuits that you require to the shopping basket quick paste link.
+		i.e.: http://nz.element14.com/jsp/shoppingCart/quickPaste
+	- Pay and ship :)
+
+The only part not supplied by element14 is MAX9924 this can be sourced from Mouser.
+
+
+Enjoy
+
+
