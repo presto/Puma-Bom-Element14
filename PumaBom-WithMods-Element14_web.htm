@@ -31,8 +31,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
  var c_lTabs=13;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Primary Puma Parts";
- c_rgszSh[1] = "BVR";
+ c_rgszSh[0] = "Primary Parts";
+ c_rgszSh[1] = "BRV";
  c_rgszSh[2] = "MAP";
  c_rgszSh[3] = "AAP";
  c_rgszSh[4] = "RPM";
@@ -73,7 +73,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[11].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -321,11 +321,11 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>Primary Puma Parts</x:Name>
+    <x:Name>Primary Parts</x:Name>
     <x:WorksheetSource HRef="PumaBom-WithMods-Element14_web_files/sheet001.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>BVR</x:Name>
+    <x:Name>BRV</x:Name>
     <x:WorksheetSource HRef="PumaBom-WithMods-Element14_web_files/sheet002.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
@@ -379,8 +379,6 @@ function fnSetActiveSheet(iSh)
   <x:WindowTopX>30</x:WindowTopX>
   <x:WindowTopY>0</x:WindowTopY>
   <x:TabRatio>710</x:TabRatio>
-  <x:ActiveSheet>11</x:ActiveSheet>
-  <x:FirstVisibleSheet>1</x:FirstVisibleSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -388,7 +386,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="PumaBom-WithMods-Element14_web_files/sheet012.htm" name="frSheet">
+ <frame src="PumaBom-WithMods-Element14_web_files/sheet001.htm" name="frSheet">
  <frame src="PumaBom-WithMods-Element14_web_files/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
